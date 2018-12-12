@@ -6,10 +6,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 
 @SpringBootApplication
-public class CfPushDemoApplication {
+public class CfDemoApplication {
 
     public static void main(String... args) throws Exception {
-        ConfigurableApplicationContext ctx = SpringApplication.run(CfPushDemoApplication.class, args);
+        ConfigurableApplicationContext ctx = SpringApplication.run(CfDemoApplication.class, args);
     }
 }
 
